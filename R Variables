@@ -1,0 +1,35 @@
+# R Programes 
+# Creating Variables
+
+name < - " R World "
+name1 <<-  " R World 1 "
+name2  = "Rworld 2" 
+num <- 1
+
+
+# Multiple Variables Name one INPUt
+
+name <-  name1 <- name2 <- " Apple "
+cat(name,name1,name2) multiple  out put
+print(paste(name,name1,name2))
+
+Concatenate Elements
+paste  with spase 
+
+print(paste(name,name1,name2))
+
+and
+paset0  without space 
+
+print(paste0(name,name1,name2))
+
+
+
+
+
+
+
+
+
+
+
