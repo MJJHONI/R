@@ -1,1 +1,32 @@
+## Basic Data Types
+      numeric - (10.5, 55, 787)
+    • integer - (1L, 55L, 100L, where the letter "L" declares this as an integer)
+    • complex - (9 + 3i, where "i" is the imaginary part)
+    • character (a.k.a. string) - ("k", "R is exciting", "FALSE", "11.5")
+    • logical (a.k.a. boolean) - (TRUE or FALSE)
+
+
+##How Cheke the data type :
+ typeof()
+ class()
+
+a <- 10  
+print (typeof(a))
+typeof(a)
+print(class(a))
+class(a)
+
+#  How chage the Data types in R Progrems 
+
+a <-  110 
+
+typeof(a)
+class(a)
+
+typeof(as.character(a))  # change to Character 
+typeof(as.integer(a))    # change to integer  
+
+
+
+
 
