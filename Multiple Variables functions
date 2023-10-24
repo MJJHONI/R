@@ -1,0 +1,12 @@
+a <- 10
+b <- 20
+print(a+b)
+
+# one more type 
+c <- a+b
+print(c)
+
+
+# Types of  Print the   Statemnts:
+cat("A+B  Total Is  = ", c)
+print(paste("A+B  Total Is  = ", c)) 
