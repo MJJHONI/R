@@ -1,0 +1,14 @@
+swt <- function(a){
+  
+y = a
+x <- switch (y,
+  "1" = "your great day",
+  "2" = "action"
+)
+print(x)
+}
+
+#function close -------------
+
+t <- readline(prompt = "Enter Your Borth Date = ")  # uesr input 
+swt(t) # call swt function 
