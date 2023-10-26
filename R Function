@@ -1,0 +1,7 @@
+entername <- function(a="Enter Your Name"){
+  
+    print(paste(a))
+  
+}
+entername("Mahajani")
+
