@@ -1,0 +1,49 @@
+
+# Data Frame class 
+
+stu.data <- data.frame(
+  sid = c(1:5),
+  sname = c("raja","akku","annu","hari","Sir"),
+  ssub = c("English","Math","Tamil","Social","Since"),
+  smark=c(50,65,80,45,85),
+  stringsAsFactors = FALSE
+  
+)
+print(stu.data) # Print Stu 
+
+str(stu.data)  # See Full Structure 
+
+data1 <- data.frame(stu.data$sname,stu.data$smark)  # filter only two the column
+print(data1) 
+
+data2 <- stu.data[2,]  # only find 2 Row 
+print(data2)
+
+data2 <- stu.data[2,2]  # only find 2 Row  and 2 word 
+print(data2)
+
+data3 <- stu[,2]  # only find 2 full column will showing  
+print(data3)
+
+data4 <- stu.data[c(2:4),c(1:4)]  # first c(2:4) is Column  second c(1:4) is Row   showing  
+print(data4) # first c(2:4) is Column  second c(1,4) only show row 1 and 4 is Row  showing  
+
+data5 <- stu[c(2:4),c(1,4)]  # first c(2:4) is Column  second c(1:4) is Row   showing  
+print(data5) # first c(2:4) is Column  second c(1,4) only show row 1 and 4 is Row  showing  
+
+#------------------Modification function in data frame-----------------------#
+# cbind() is column modification , rbind () will use for Row modification 
+
+
+# ADDING ROW----------
+
+rdata <- list(6,"somu","since",91)
+
+sr <- rbind(stu.data,rdata) # Add Row 
+print(sr)
+
+cdata <- c("annanagar","Adyar","medavakkam","kovilmpakkam","Sittalappakm")
+s<-cbind(stu.data,location = cdata)
+print(s)
+stu.data
+
