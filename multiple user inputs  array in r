@@ -1,0 +1,20 @@
+
+while (TRUE) {
+ a = readline(prompt = "Enter the Value = ")
+  if( a == "y"){
+    c <- readline(prompt = "Enter the val Row = ")
+    d <- readline(prompt = "Enter the val Colum = ")
+    m <- readline(prompt = "Enter the val Matrix = ")
+    
+    vdd1 <- c(1,2,3,4,5,6,7,8,9,10)# Vector Inputs
+    vdd2 <- c("jhoni","raja","mohan","raju","Priya","Rose","Sathya","Gousiya","Akku","Annu") # Vector Inputs
+    arrr <- array(c(vd1,vd2),dim = c(c,d,m))  # Array creating 
+    print(arrr)  # Call Array 
+    
+    
+  }else 
+  {
+    break
+  }
+
+}
