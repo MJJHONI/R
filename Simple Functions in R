@@ -1,0 +1,27 @@
+# Name Enter Function 
+
+entername <- function(a="Enter Your Name"){
+  
+    print(paste(a))
+  
+}
+entername("Mahajani")  # Call Function 
+
+ # addtion Function --------------------
+
+calladd <- function(a=0,b=0,c=0){
+  z <- a+b+c
+  print(z)
+  
+}
+calladd(1,5,9) # Call Function 
+
+
+#subtraction ---------------
+
+callsub <- function(a=0,b=0,c=0){
+  z <- a-b-c
+  print(z)
+  
+}
+callsub(15,5)# Call Function 
