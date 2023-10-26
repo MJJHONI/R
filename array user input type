@@ -1,0 +1,14 @@
+# array user input type 
+
+
+r1<-readline(prompt = "Enter The Row Count ")
+r2<-readline(prompt = "Enter The collum Count ")
+r3<-readline(prompt = "Enter The Matrix Count ")
+
+
+vd1 <- c(1,2,3,4,5,6,7,8,9,10)# Vector Inputs
+vd2 <- c("jhoni","raja","mohan","raju","Priya","Rose","Sathya","Gousiya","Akku","Annu") # Vector Inputs
+
+arr <- array(c(vd1,vd2),dim = c(r1,r2,r3))  # Array creating 
+
+print(arr)  # Call Array 
