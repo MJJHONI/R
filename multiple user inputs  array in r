@@ -1,6 +1,5 @@
-
 while (TRUE) {
- a = readline(prompt = "Enter the Value = ")
+ a = readline(prompt = "Are You want Creat Array Press (y or n) = ")
   if( a == "y"){
     c <- readline(prompt = "Enter the val Row = ")
     d <- readline(prompt = "Enter the val Colum = ")
