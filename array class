@@ -1,0 +1,18 @@
+#Array class
+
+v1 <- c(1,2,3,4,5,6,7,8)
+v2 <- c("car","bus","van","Train","Airoplan","GUN","pistal")
+le1 <- length(v1)
+le2 <- length(v2)
+
+if(le1 > le2){
+  v3 <- array(c(v1,v2),dim = c(le1,2,1))
+  
+  print(v3)
+}else
+{
+  v3 <- array(c(v1,v2),dim = c(le2,2,1))
+  
+  print(v3)
+  
+}
